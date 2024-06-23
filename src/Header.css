@@ -1,0 +1,134 @@
+/* old color: #429de886 (it's like a blue ish color)  */
+
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffffa1;
+  transition: transform 0.3s ease;
+}
+
+li {
+    
+  transition: transform 0.3s ease;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  border-radius: 10px;
+}
+
+li:hover {
+  text-decoration: none;
+  background-color: #08efff8a;
+  color: #ffffffa1;
+  transform: scale(1.05);
+}
+
+.logo {
+  color: #ffffffa1;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #242424a9;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.logo {
+  background-color: #08efff8a;
+  color: #fff;
+  padding-left: .75rem;
+  padding-bottom: .5rem;
+  padding-right: .75rem;
+  padding-top: .5rem;
+  border-radius: 7px;
+}
+
+ul {
+  font-weight: 600;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+  gap: 2.5rem;
+  padding-right: 1rem;
+}
+
+li:nth-child(4) {
+    background-color: #08efff8a;
+    color: #fff;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    border-radius: 7px;
+}
+
+
+.hamburger-icon {
+    width: 2rem;
+    display: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.hamburger-icon:hover {
+    transform: scale(1.05);
+}
+
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: left 0.3s ease;
+        padding: 0;
+    }
+  
+    .nav-links.nav-links-visible {
+        left: 0;
+        z-index: 1000;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 1000;
+      }
+  
+    .hamburger-icon {
+      display: block;
+      padding-right: .5rem;
+      z-index: 1000;
+    }
+  }
+  

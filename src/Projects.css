@@ -1,0 +1,26 @@
+.project-image {
+    width: 33vw;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  /* Media query  */
+
+ @media (max-width: 600px) {
+    .project-image {
+        width: 50vw;
+    }
+  }
