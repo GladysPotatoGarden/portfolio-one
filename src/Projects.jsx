@@ -9,7 +9,9 @@ function Projects() {
     <section className='projects-Container'>
         <h1>Projects</h1>
         <div project-item>
+            <a href="https://666ca9fd30c6601b916b38a4--reliable-taiyaki-7dde39.netlify.app/">
             <img className='project-image' src={Quazar} alt="" />
+            </a>
         </div>
         
         <div project-item>

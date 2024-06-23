@@ -6,15 +6,16 @@
 
 .project-image:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .projects-Container {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 }
 
 
