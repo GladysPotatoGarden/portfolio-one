@@ -8,12 +8,13 @@
     transform: scale(1.05);
 }
 
-.projects-container {
+.projects-Container {
     display: flex;
     flex-direction: column;
     gap: 5rem;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1rem;
 }
 
 
