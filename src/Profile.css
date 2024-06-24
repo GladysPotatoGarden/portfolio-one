@@ -1,49 +1,36 @@
 * {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-section {
-    padding-top: 5rem;
-    display: flex;
-    gap: 3rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    flex-wrap: nowrap;
-    
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+section {
+  padding-top: 5rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  flex-wrap: nowrap;
+}
 
 .profile-container {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .profilePic {
-    object-fit: cover;
-    border-radius: 50%;
-    width: 400px;
-    transition: transform 0.3s ease;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 400px;
+  transition: transform 0.3s ease;
 }
 
 .profilePic:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
-
-/* .h1-morph {
-    padding: 1rem;
-    border-radius: 10px;
-    color: #ffffffb4;
-    border-radius: 10px;
-    background: #242424;
-    box-shadow: inset 5px 5px 10px #111111,
-                inset -5px -5px 10px #373737;
-} */

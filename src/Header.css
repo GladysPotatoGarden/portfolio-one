@@ -13,12 +13,11 @@ a {
 }
 
 li {
-    
   transition: transform 0.3s ease;
-  padding-left: .75rem;
-  padding-right: .75rem;
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   border-radius: 10px;
 }
 
@@ -36,7 +35,7 @@ li:hover {
 }
 
 .logo:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 nav {
@@ -56,10 +55,10 @@ nav {
 .logo {
   background-color: #08efff8a;
   color: #fff;
-  padding-left: .75rem;
-  padding-bottom: .5rem;
-  padding-right: .75rem;
-  padding-top: .5rem;
+  padding-left: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
   border-radius: 7px;
 }
 
@@ -74,61 +73,57 @@ ul {
 }
 
 li:nth-child(4) {
-    background-color: #08efff8a;
-    color: #fff;
-    padding-left: 1rem;
-    padding-bottom: .5rem;
-    padding-right: 1rem;
-    padding-top: .5rem;
-    border-radius: 7px;
+  background-color: #08efff8a;
+  color: #fff;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  border-radius: 7px;
 }
 
-
 .hamburger-icon {
-    width: 2rem;
-    display: none;
-    transition: transform 0.3s ease;
-    cursor: pointer;
+  width: 2rem;
+  display: none;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .hamburger-icon:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-
-
 @media (max-width: 768px) {
-    .nav-links {
-        z-index: 1000;
-        position: fixed;
-        top: 0;
-        left: -100%;
-        width: 250px;
-        height: 100%;
-        background-color: #242424fa;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: left 0.3s ease;
-        padding: 0;
-    }
-  
-    .nav-links.nav-links-visible {
-        left: 0;
-        z-index: 1000;
-    }
-
-    .nav-links li {
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-        z-index: 1000;
-      }
-  
-    .hamburger-icon {
-      display: block;
-      padding-right: .5rem;
-      z-index: 1000;
-    }
+  .nav-links {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #242424fa;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: left 0.3s ease;
+    padding: 0;
   }
-  
+
+  .nav-links.nav-links-visible {
+    left: 0;
+    z-index: 1000;
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+
+  .hamburger-icon {
+    display: block;
+    padding-right: 0.5rem;
+    z-index: 1000;
+  }
+}

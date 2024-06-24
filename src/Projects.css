@@ -1,28 +1,25 @@
 .project-image {
-    width: 33vw;
-    border-radius: 10%;
-    transition: transform 0.3s ease;
+  width: 33vw;
+  border-radius: 10%;
+  transition: transform 0.3s ease;
 }
 
 .project-image:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .projects-Container {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
 }
 
-
-  /* Media query  */
-
- @media (max-width: 600px) {
-    .project-image {
-        width: 50vw;
-    }
+@media (max-width: 600px) {
+  .project-image {
+    width: 50vw;
   }
+}
