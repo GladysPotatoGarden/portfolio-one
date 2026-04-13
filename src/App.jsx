@@ -8,7 +8,7 @@ import Footer from "./Footer.jsx";
 import { RevealContext } from "./RevealContext.jsx";
 
 const REVEAL_STEP_MS = 150;
-const REVEAL_TOTAL_STAGES = 9;
+const REVEAL_TOTAL_STAGES = 11;
 
 function App() {
   const [stage, setStage] = useState(0);
