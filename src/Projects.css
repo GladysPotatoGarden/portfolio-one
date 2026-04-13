@@ -1,12 +1,40 @@
+.project-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+}
+
 .project-image {
   width: 33vw;
   border-radius: 10%;
   transition: transform 0.3s ease;
+  display: block;
 }
 
 .project-image:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+
+.project-label {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  max-width: 33vw;
+}
+
+.project-item a {
+  display: block;
+  line-height: 0;
+}
+
+#projects {
+  scroll-margin-top: 4.5rem;
 }
 
 .projects-Container {
@@ -21,5 +49,9 @@
 @media (max-width: 600px) {
   .project-image {
     width: 50vw;
+  }
+
+  .project-label {
+    max-width: 50vw;
   }
 }

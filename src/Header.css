@@ -47,14 +47,14 @@ nav {
   justify-items: center;
   align-items: center;
   justify-content: space-between;
-  background-color: #242424a9;
+  background-color: #121525a9;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 .logo {
-  background-color: #08efff8a;
-  color: #fff;
+  background-color: rgba(56, 59, 87, 0.75);
+  color: rgba(255, 255, 255, 0.87);
   padding-left: 0.75rem;
   padding-bottom: 0.5rem;
   padding-right: 0.75rem;
@@ -101,7 +101,7 @@ li:nth-child(4) {
     left: -100%;
     width: 250px;
     height: 100%;
-    background-color: #242424fa;
+    background-color: #121525fa;
     flex-direction: column;
     justify-content: center;
     align-items: center;
