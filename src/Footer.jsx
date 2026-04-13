@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal.jsx";
 
 function Footer() {
   return (
-    <Reveal minStage={9}>
+    <Reveal minStage={11}>
       <section className="footer-container">
         <div className="footer">
           <a href="#about" className="footer-link">
