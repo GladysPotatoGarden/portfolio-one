@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal.jsx";
 
 function Profile() {
   return (
-    <section>
+    <section className="profile-section">
       <Reveal minStage={1}>
         <h1 className="h1-morph">Meet Your Developer,</h1>
       </Reveal>
