@@ -12,7 +12,11 @@ function Projects() {
       <Reveal minStage={7}>
         <div className="project-item">
           <figure className="project-figure">
-            <a href="">
+            <a
+              href="https://admirable-cupcake-4b5cdf.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="project-image" src={Quazar} alt="Quazar Entertainment" />
             </a>
             <figcaption className="project-label">Quazar Entertainment</figcaption>
