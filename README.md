@@ -1,5 +1,3 @@
-Portfolio
-
 A portfolio site that introduces me and what I’ve built.
 
 ## Why this website is unique
