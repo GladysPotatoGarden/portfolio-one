@@ -1,30 +1,33 @@
 import "./Projects.css";
 import Quazar from "./assets/Quazar.png";
-import plus from "./assets/plus.png";
-import plus2 from "./assets/plus2.png";
-import plus3 from "./assets/plus3.png";
+import SirFizzaloImg from "./assets/SirFizzalo.png";
+import { Reveal } from "./Reveal.jsx";
 
 function Projects() {
   return (
-    <section className="projects-Container">
-      <h1>Projects</h1>
-      <div project-item>
-        <a href="">
-          <img className="project-image" src={Quazar} alt="" />
-        </a>
-      </div>
+    <section id="projects" className="projects-Container">
+      <Reveal minStage={6}>
+        <h1>Projects</h1>
+      </Reveal>
+      <Reveal minStage={7}>
+        <div className="project-item">
+          <figure className="project-figure">
+            <a href="">
+              <img className="project-image" src={Quazar} alt="Quazar Entertainment" />
+            </a>
+            <figcaption className="project-label">Quazar Entertainment</figcaption>
+          </figure>
+        </div>
+      </Reveal>
 
-      <div project-item>
-        <img className="project-image" src={plus} alt="" />
-      </div>
-
-      <div project-item>
-        <img className="project-image" src={plus2} alt="" />
-      </div>
-
-      <div project-item>
-        <img className="project-image" src={plus3} alt="" />
-      </div>
+      <Reveal minStage={8}>
+        <div className="project-item">
+          <figure className="project-figure">
+            <img className="project-image" src={SirFizzaloImg} alt="SirFizzalo" />
+            <figcaption className="project-label">SirFizzalo</figcaption>
+          </figure>
+        </div>
+      </Reveal>
     </section>
   );
 }

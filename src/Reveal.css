@@ -1,0 +1,12 @@
+.reveal {
+  opacity: 0;
+  transition: opacity 0.42s ease-out;
+}
+
+.reveal--visible {
+  opacity: 1;
+}
+
+.reveal:not(.reveal--visible) {
+  pointer-events: none;
+}
