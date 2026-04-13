@@ -1,4 +1,4 @@
-# Quincy Zientek — Portfolio
+Portfolio
 
 A portfolio site that introduces me and what I’ve built.
 
