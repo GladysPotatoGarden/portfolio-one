@@ -8,6 +8,8 @@
 
 .project-image {
   width: 33vw;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   border-radius: 10%;
   transition: transform 0.3s ease;
   display: block;
