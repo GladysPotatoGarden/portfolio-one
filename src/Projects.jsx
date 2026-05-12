@@ -1,4 +1,5 @@
 import "./Projects.css";
+import DVWrapImg from "./assets/DVWrap.png";
 import Quazar from "./assets/Quazar.png";
 import SirFizzaloImg from "./assets/SirFizzalo.png";
 import SirFizzaloHarmonicExciterImg from "./assets/SirFizzaloHarmonicExciter.png";
@@ -15,6 +16,20 @@ function Projects() {
         <div className="project-item">
           <figure className="project-figure">
             <a
+              href="https://dv-vinyl-wrap-site.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="project-image" src={DVWrapImg} alt="DV WRAP" />
+            </a>
+            <figcaption className="project-label">DV WRAP</figcaption>
+          </figure>
+        </div>
+      </Reveal>
+      <Reveal minStage={8}>
+        <div className="project-item">
+          <figure className="project-figure">
+            <a
               href="https://admirable-cupcake-4b5cdf.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
@@ -26,7 +41,7 @@ function Projects() {
         </div>
       </Reveal>
 
-      <Reveal minStage={8}>
+      <Reveal minStage={9}>
         <div className="project-item">
           <figure className="project-figure">
             <img
@@ -39,7 +54,7 @@ function Projects() {
         </div>
       </Reveal>
 
-      <Reveal minStage={9}>
+      <Reveal minStage={10}>
         <div className="project-item">
           <figure className="project-figure">
             <img
@@ -54,7 +69,7 @@ function Projects() {
         </div>
       </Reveal>
 
-      <Reveal minStage={10}>
+      <Reveal minStage={11}>
         <div className="project-item">
           <figure className="project-figure">
             <img
